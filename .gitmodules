@@ -1,0 +1,3 @@
+[submodule "aoe-data-analytics"]
+	path = aoe-data-analytics
+	url = https://github.com/CSCfi/aoe-data-analytics.git
