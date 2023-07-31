@@ -1,3 +1,6 @@
 [submodule "aoe-data-analytics"]
 	path = aoe-data-analytics
 	url = https://github.com/CSCfi/aoe-data-analytics.git
+[submodule "aoe-streaming-app"]
+	path = aoe-streaming-app
+	url = https://github.com/CSCfi/aoe-streaming-app
