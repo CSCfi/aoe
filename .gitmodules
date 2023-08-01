@@ -6,4 +6,4 @@
 	url = https://github.com/CSCfi/aoe-streaming-app.git
 [submodule "aoe-web-backend"]
 	path = aoe-web-backend
-	url = https://github.com/CSCfi/aoe-web-backend.git
+	url = git@github.com:CSCfi/aoe-web-backend.git
