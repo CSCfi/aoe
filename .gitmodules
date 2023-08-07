@@ -10,3 +10,6 @@
 [submodule "aoe-data-services"]
 	path = aoe-data-services
 	url = https://github.com/CSCfi/aoe-data-services.git
+[submodule "aoe-web-frontend"]
+	path = aoe-web-frontend
+	url = https://github.com/CSCfi/aoe-web-frontend.git
