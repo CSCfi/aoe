@@ -13,3 +13,6 @@
 [submodule "aoe-web-frontend"]
 	path = aoe-web-frontend
 	url = https://github.com/CSCfi/aoe-web-frontend.git
+[submodule "aoe-semantic-apis"]
+	path = aoe-semantic-apis
+	url = https://github.com/CSCfi/aoe-semantic-apis.git
