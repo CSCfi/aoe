@@ -4,9 +4,6 @@
 [submodule "aoe-streaming-app"]
 	path = aoe-streaming-app
 	url = https://github.com/CSCfi/aoe-streaming-app.git
-[submodule "aoe-web-backend"]
-	path = aoe-web-backend
-	url = https://github.com/CSCfi/aoe-web-backend.git
 [submodule "aoe-data-services"]
 	path = aoe-data-services
 	url = https://github.com/CSCfi/aoe-data-services.git
