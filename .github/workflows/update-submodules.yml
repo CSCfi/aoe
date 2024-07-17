@@ -1,0 +1,24 @@
+name: Update Submodules
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allows manual trigger from the GitHub Actions tab
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Run update script
+        run: ./update_submodules.sh
